@@ -1,6 +1,7 @@
 import { request } from 'graphql-request'
 import useSWR from "swr"
 
+//comment
 const baseUrl = "https://jsonplaceholder.typicode.com"
 
 export const useGetPostsGraph = path => {
